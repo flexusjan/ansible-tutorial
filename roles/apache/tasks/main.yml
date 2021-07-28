@@ -1,0 +1,32 @@
+---
+- name: Install Apache2
+  package:
+    state: latest
+    name: "apache2"
+  notify:
+    - Restart Apache
+
+- name: Copy vHost
+  copy:
+    src: "80_example.conf"
+    dest: "/etc/apache2/sites-enabled/80_example.conf"
+    owner: root
+    group: root
+  notify:
+    - Restart Apache
+
+- name: Copy Content
+  copy:
+    src: "html/"
+    dest: "/var/www/html"
+    owner: root
+    group: root
+  notify:
+  - Restart Apache
+  
+- name: Start and enable Apache2
+  service:
+    name: apache2
+    state: started
+    enabled: yes
+
