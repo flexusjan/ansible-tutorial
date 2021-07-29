@@ -1,11 +1,13 @@
-# ansible-tutorial
+# Ansible Tutorial
 
 
 ## Install Ansible
-      sudo apt install apache2
+      sudo apt install ansible
 
+## Ansible Version
+2.9
 
-## Plays
+## Example Playbooks
 
 ### Hello World
       ansible-playbook -i inventory/hosts.yml helloworld.yml
@@ -20,4 +22,13 @@
 ## Ad-Hoc Example
       ansible -i inventory/hosts.yml all -m ping
 
+### Documentation
 
+## Ansible Builtin Modules
+https://docs.ansible.com/ansible/latest/collections/ansible/builtin/index.html
+
+## Ansible Inventory Guide
+https://docs.ansible.com/ansible/2.9/user_guide/intro_inventory.html
+
+## Ansible Roles
+https://docs.ansible.com/ansible/2.9/user_guide/playbooks_reuse_roles.html
