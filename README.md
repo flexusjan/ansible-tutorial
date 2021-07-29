@@ -32,3 +32,12 @@ https://docs.ansible.com/ansible/2.9/user_guide/intro_inventory.html
 
 ## Ansible Roles
 https://docs.ansible.com/ansible/2.9/user_guide/playbooks_reuse_roles.html
+
+## Ansible Variables
+https://docs.ansible.com/ansible/2.9/user_guide/playbooks_variables.html
+
+## Ansible Templating (Jinja2)
+https://www.digitalocean.com/community/tutorials/how-to-create-and-use-templates-in-ansible-playbooks
+
+## Ansible Explained (TechWorld with Nana)
+https://www.youtube.com/watch?v=1id6ERvfozo
