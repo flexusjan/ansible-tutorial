@@ -36,6 +36,9 @@ https://docs.ansible.com/ansible/2.9/user_guide/playbooks_reuse_roles.html
 ## Ansible Variables
 https://docs.ansible.com/ansible/2.9/user_guide/playbooks_variables.html
 
+## Ansible Special Variables
+https://docs.ansible.com/ansible/2.9/reference_appendices/special_variables.html
+
 ## Ansible Templating (Jinja2)
 https://www.digitalocean.com/community/tutorials/how-to-create-and-use-templates-in-ansible-playbooks
 
